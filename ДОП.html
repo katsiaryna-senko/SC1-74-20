@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<META charset="utf-8">
+	<TITLE>Домашняя работа</TITLE>
+	<style>
+		.pd-left-30 {
+			padding-left: 30px;
+		}
+		.pd-left-150 {
+			padding-left: 150px;
+		}
+		tr {
+			border-top: 1px dotted #000;
+			display: block;
+		}
+		tr:first-child {
+			border: none;
+		}
+		tr td {
+			border-left: 1px solid #000;
+		    width: 20px;
+		    height: 20px;
+		    text-align: center;
+		}
+		tr td:first-child {
+			border: none;
+		}
+		.schedule-t {
+			position: relative;
+    		padding-right: 20px;
+		}
+		.schedule-m {
+			position: absolute;
+		    font-size: 13px;
+		    top: -3px;
+		}
+		.primer1{ 
+			letter-spacing: 7px;
+			font-size: 14px;
+		}
+		.primer2{ 
+			letter-spacing: 8px;
+			font-size: 14px;
+		}
+		.cif {
+			position: absolute;
+		    font-size: 13px;
+		    top: 8px;
+
+	</style>
+</HEAD>
+<BODY>
+	<h1 align="center" style="color:Black">Заголовок первого уровня</h1>
+	<h2 align="left" style="color:Black">Предварительно форматированный текст: </h2>
+	
+	<table border="0" cellspacing="10"cellpadding="5">
+		<tr>
+			<td>&#10008;</td>
+			<td>&#1054;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&#10008;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&#1054;</td>
+			<td>&#10008;</td>
+			<td>&#1054;</td>
+		</tr>
+	</table>
+
+	<hr size=3px width=100% align="left">
+	<h2 align="left" style="color:Black">Тег address </h2>
+	<p><i>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</i></p>
+	<hr size=3px width=100% align="left">
+	<h2 align="left" style="color:Black"> Семантические и функциональные строчные теги</h2>
+	<div>Пожелания автора: </div>
+	<div> <s style="color:Red">  Данный текст убрать из монографии</s> и заменить его на <u>вновь помещённый текст</u>. </div>
+	<hr size=3px width=100% align="left">
+	<h2 align="left" style="color:Black">Работа со строчными и блоковыми цитатами</h2>
+	<div style="color:Black">Цитата короткая:</div>
+	<div><i>И всё­-таки она вертится!</i></div>
+
+	<p>Цитата занимающая несколько предложений:</p>
+	<p class="pd-left-30">О сколько нам открытий чудных<br>
+	Готовят просвещенья дух<br>
+	И опыт, сын ошибок трудных,<br>
+	И гений, парадоксов друг,<br>
+	И случай, бог изобретатель...</p>
+
+	<hr size=3px width=100% align="left">
+	<h2 align="left" style="color:Black"> Семантические и функциональные строчные теги</h2>
+	<p>
+		<strong>Тэг &lt;STRONG&gt; делает данный фрагмент текста более важным.</strong>
+		<em>Тэг &lt;em&gt; менее важным.</em>
+	</p>
+	<p>В то время как теги &lt;b&gt; и &lt;i&gt; делают текст просто <b>полужирным</b> и <i>курсивом</i> соответственно.
+	</p>
+	<hr size=3px width=100% align="left">
+	<h2 align="left" style="color:Black">Теги форматирования машинного языка</h2>
+	<p>При выполнении программного кода на языке PERL:</p>
+	<pre>
+#!/usr/local/bin/perl
+print "Content‐type: text/html\n\n";
+print "&lt;H1&gt;Hello World&lt;/H1&gt;\n";
+	</pre>
+	<p>Программа выведет:</p>
+	<pre>Hello, World!</pre>
+	<p>Однако в браузере у нас будет отображаться результат выполнения этой программы:</p>
+	<h1 align="left" style="color:Black"><big>Hello, World!</big></h1>
+	<hr size=3px width=100% align="left">
+	<h2 align="left" style="color:Black">Комментарии и литералы(мнемоники) в HTML</h2>
+	<p>&lt;!‐‐ это комментарий ‐‐&gt;</p>
+	<p class="pd-left-150">&lt;!‐‐ и это также комментарий,
+	занимающий более одной строки ‐‐&gt;<br></p>
+	<hr size=3px width=100% align="left">
+	<h2 align="left" style="color:Black">Теги над­ и подстрочных символов</h2>
+	<h4 align="center" style="color:Black">Магазин работает:</h4>
+	<p align="center" style="color:Black">c <span class="schedule-t">08<span class="schedule-m"><u>30</u></span></span> до <span class="schedule-t">18<span class="schedule-m"><u>30</u></span></span></p>
+	<p align="center" style="color:Black">обед с <span class="schedule-t">13<span class="schedule-m"><u>00</u></span></span> до <span class="schedule-t">14<span class="schedule-m"><u>00</u></span></span></p>
+	<p align="center" style="color:Black">выходной: <u>суббота</u>, <u>воскресенье</u></p>
+	<hr size=3px width=100% align="left">
+	<p class="primer1">Эо рсо еёы ткт</p>
+	<p class="primer2">т пот вслй ес</p>
+	<hr size=3px width=100% align="left">	
+	<h2 align="left" style="color:Black">Акроним и курсив</h2>
+	<p><span class="schedule-t">ТФ:Y(x)=e<span class="schedule-m">-iπx</span>&emsp;+log<span class="cif">x</span>&ensp;4</span></p>
+	<hr size=3px width=100% align="left">
+	<h2 align="left" style="color:Black">Тег small внтури абзаца</h2>
+	<p align="right"><small>Создано при помощи блокнота©</small></p>
+</BODY>
+</HTML
